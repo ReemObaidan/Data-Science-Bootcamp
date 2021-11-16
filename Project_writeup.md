@@ -16,6 +16,7 @@ The dataset contains 9933 Development Courses with 17 features for each,A few fe
 ...
 
 *Models*
+
 Support Vector Regression, Linear Regression, Random Forest Regressor, Kernel Ridge Regression, Gradient Boosting Regression, and Elastic Net Regression.... Regressor is with strongest cross-validation performance. 
 
 *Model Evaluation and Selection*
