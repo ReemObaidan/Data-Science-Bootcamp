@@ -39,7 +39,7 @@ The entire training dataset of 9933 records was split into 80/20 train vs. test,
 ## Tools:
 - Numpy and Pandas for data manipulation
 - Scikit-learn for modeling
-- Matplotlib and ploty for plotting
+- seaborn and ploty for plotting
 
 
 ## Communication:
