@@ -14,14 +14,27 @@ The dataset contains 9933 Development Courses with 17 features for each,A few fe
 ## Algorithms:
 
 *Feature Engineering*
-...
+
+Reformat 'created'feature  ,which displays the time of creation of the course. and 'published_time' feature, which displays courses' published date as a datetime object .
 
 *Models*
 
-Support Vector Regression, Linear Regression, Random Forest Regressor, Kernel Ridge Regression, Gradient Boosting Regression, and Elastic Net Regression.... Regressor is with strongest cross-validation performance. 
+Support Vector Regression, Linear Regression, Random Forest Regressor, Kernel Ridge Regression, Gradient Boosting Regression, and Elastic Net Regression.
+Linear Regression,Kernel Ridge Regression ,Elastic Net Regression are strongest cross-validation performance where R-squared arround 0.835. 
 
 *Model Evaluation and Selection*
-...
+
+The entire training dataset of 9933 records was split into 80/20 train vs. test, and all scores reported below .
+
+**Final test score:**
+
+**Linear Regression** R_squerd: 0.834927       RMSE:14024.971312
+
+**Kernel Ridge Regression** R_squerd:0.835146  RMSE:14015.631563
+
+**Elastic Net Regression** R_squerd:0.834880   RMSE:14026.944374
+
+
 
 ## Tools:
 - Numpy and Pandas for data manipulation
