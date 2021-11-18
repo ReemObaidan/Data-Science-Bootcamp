@@ -20,7 +20,7 @@ Reformat 'created'feature  ,which displays the time of creation of the course. a
 *Models*
 
 Support Vector Regression, Linear Regression, Random Forest Regressor, Kernel Ridge Regression, Gradient Boosting Regression, and Elastic Net Regression.
-Linear Regression,Kernel Ridge Regression ,Elastic Net Regression are strongest cross-validation performance where R-squared arround 0.835. 
+Linear Regression,Kernel Ridge Regression ,Elastic Net Regression are strongest precision performance where R-squared arround 0.835. 
 
 *Model Evaluation and Selection*
 
